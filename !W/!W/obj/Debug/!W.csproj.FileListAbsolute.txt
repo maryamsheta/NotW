@@ -1,0 +1,14 @@
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\bin\Debug\!W.exe.config
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\bin\Debug\!W.exe
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\bin\Debug\!W.pdb
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\bin\Debug\CalithaLib.dll
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\bin\Debug\GoldParserEngine.dll
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\obj\Debug\!W.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\obj\Debug\!W.csproj.SuggestedBindingRedirects.cache
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\obj\Debug\_W.Form1.resources
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\obj\Debug\_W.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\obj\Debug\!W.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\obj\Debug\!W.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\obj\Debug\!W.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\obj\Debug\!W.exe
+C:\Users\LENOVO\Desktop\!W-PLCProject\!W\!W\obj\Debug\!W.pdb

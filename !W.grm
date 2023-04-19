@@ -1,0 +1,75 @@
+
+"Name"   = '!W'  
+"Author" = 'MaryamSh'
+         
+!----------------------------------------------
+!     !W means the reverse of W which is M
+!----------------------------------------------
+                   
+"Start Symbol" = <program>
+               
+!------------------------
+!       Terminals
+!------------------------
+ID    = {letter}{Alphanumeric}*      !Must start with a letter   
+DIGIT = ('+'|'-')?{digit}+ ('.'{digit}+)?      
+!------------------------
+!         Rules
+!------------------------
+<program>       ::= '!'GoodBye <stmt_list> '!'Hello
+           
+<stmt_list>     ::= <concept> | <concept> <stmt_list>
+             
+<concept>       ::= <assign> | <is> | <from> | <function_dec> | <function_call> | <return>
+             
+<assign>        ::= <id> equals <expr>
+             
+<id>            ::= ID
+                 
+<expr>          ::= <expr>'+'<term> | <expr>'-'<term> | <term>
+             
+<term>          ::= <term>'*'<fact> | <term>'/'<fact> | <term>'%'<fact> | <fact>
+  
+<fact>          ::= <fact>'**'<power> | <power>
+             
+<power>         ::= '('<power>')' | <id> | <digit> | <function_call>
+             
+<digit>         ::= DIGIT
+              
+<is>            ::= is <condition> '?' yes '{'<stmt_list>'}' | is <condition> '?' yes '{'<stmt_list>'}' no '{'<stmt_list>'}'
+             
+<condition>     ::= <expr> <comp> <expr> | <expr> <comp> <expr> <logical> <condition>
+             
+<comp>          ::= equal to | not equal to | smaller than | not smaller than | greater than | not greater than
+             
+<logical>       ::= and | or
+                
+<from>          ::= from <assign> to <digit> do '{'<stmt_list>'}'
+             
+<function_dec>  ::= <id> '('<params>')' '{'<stmt_list>'}'
+                
+<function_call> ::= <id> '('<params>')'
+                 
+<params>        ::= <id> | <id>','<params> | 
+                 
+<return>        ::= return | return <expr>
+                 
+ 
+                 
+
+                 
+                 
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
